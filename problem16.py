@@ -1,0 +1,16 @@
+# Write a program to accept marks of 6 students and display them in a sorted manner.
+Marks = []
+a = int(input("Enter marks of first Student:"))
+Marks.append(a)
+b = int(input("Enter marks of second Student:"))
+Marks.append(b)
+c = int(input("Enter marks of third Student:"))
+Marks.append(c)
+d = int(input("Enter marks of fourth Student:"))
+Marks.append(d)
+e = int(input("Enter marks of fifth Student:"))
+Marks.append(e)
+f = int(input("Enter marks of sixth Student:"))
+Marks.append(f)
+Marks.sort()
+print(Marks)
